@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 4vh;
+  padding-left: 5%;
+  z-index: 400;
+}
+.navbar .navbar__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  background-color: black;
+  height: 50px;
+}
+.navbar .navbar__links li {
+  padding: 0 20px;
+}
+.navbar .navbar__links li .contact-btn {
+  background-color: #FC2A8F;
+}
+.navbar .navbar__links li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 92vh;
+  padding-left: 10%;
+}
+.hero .hero__header {
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.hero .hero__title {
+  font-size: 15px;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.hero__img {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.projects {
+  background-color: #000000;
+  display: flex;
+  position: relative;
+  min-height: 80vh;
+}
+.projects h2 {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+.projects .project-paragraph {
+  color: #FFFFFF;
+  font-size: 10px;
+  text-align: right;
+}
+
+.project {
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+.project__image {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+}
+
+.project-container {
+  background: #000000;
+  padding: 10px;
+  border: 5px solid #FFFFFF;
+  padding-left: 10%;
+}
+
+.tech-stack {
+  color: #FFFFFF;
+  background: #000000;
+  padding: 10px;
+  border: 3px solid #000000;
+}
+
+.about-page {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding-left: 5%;
+  min-height: 50vh;
+}
+.about-page h3 {
+  margin-bottom: 80px;
+}
+.about-page p {
+  text-align: center;
+}
+
+.contact-page {
+  background-color: #000000;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  flex-direction: column;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  border: 3px solid #FFFFFF;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.contact__socials {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 2px solid #000000;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
