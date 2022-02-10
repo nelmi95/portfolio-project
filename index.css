@@ -32,10 +32,11 @@
   height: 30px;
 }
 .navbar .navbar__links li {
-  padding: 0 20px;
+  padding: 20px;
 }
 .navbar .navbar__links li .contact-btn {
   background-color: #FC2A8F;
+  font-weight: bold;
 }
 .navbar .navbar__links li a {
   text-decoration: none;
@@ -209,6 +210,11 @@
 .form-contact .contact-button {
   margin-top: 40px;
   margin-bottom: 30px;
+  background-color: #FC2A8F;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+  font-weight: bold;
 }
 
 .contact__socials {
