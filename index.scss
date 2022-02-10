@@ -19,20 +19,28 @@
   z-index: 400;
 
 
+  .navbar__logo{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
   .navbar__links {
     display: flex;
     flex-direction: row;
     align-items: center;
     list-style: none;
     background-color: black;
-    height: 50px;
+    height: 30px;
 
     li {
       padding: 0 20px;
 
       .contact-btn {
         background-color: #FC2A8F;
-        height: 50px;
+        
       }
 
       a{
@@ -252,4 +260,4 @@
 
   }
 
-  // media query - 
+  
